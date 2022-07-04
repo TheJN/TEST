@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 $stock_bdd = $DB->query('SELECT * FROM food_stock WHERE id_user = ?',array($id_user));
 $historic_menu = $DB->query('SELECT * FROM historic_menu WHERE id_user = ?',array($id_user));
 
-// YOLO TEST
+// YOLO TEST 232332454
 
 ?>
 
